@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loro — assistente doméstico local</title>
+<meta name="description" content="Loro é um assistente doméstico que roda na rede local da casa, sem nuvem própria. Conecta ao Google Agenda e Tarefas de cada pessoa só para mostrar o dia da família.">
+<style>
+  :root { --bg:#f6f7f9; --fg:#1b1f24; --soft:#566; --card:#fff; --line:#dde1e6; --accent:#0b6b4f; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14181d; --fg:#e8ebef; --soft:#9aa5b1; --card:#1c2128; --line:#2c333b; --accent:#5fd1a5; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 3rem; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; }
+  p, li { color: var(--soft); }
+  .lead { font-size: 1.1rem; color: var(--fg); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.25rem; }
+  a { color: var(--accent); }
+  footer { margin-top: 2.5rem; font-size: .9rem; color: var(--soft); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Loro</h1>
+  <p class="lead">Um assistente doméstico que mora na sua rede local: voz, TV, avisos, lista de compras e a agenda da família.</p>
+
+  <h2>O que é</h2>
+  <p>O Loro é um projeto pessoal da Dungeon Dev Labs. Ele roda em um aparelho da própria casa (um celular com Android) e é acessado só pela rede Wi-Fi local. Não existe um servidor do Loro na internet: quem instala é quem hospeda.</p>
+
+  <h2>Conexão com o Google</h2>
+  <div class="card">
+    <p>Cada pessoa da casa pode conectar a própria conta Google ao Loro. Com a sua permissão, ele:</p>
+    <ul>
+      <li>lê as suas agendas e eventos do Google Agenda para mostrar o que você tem hoje;</li>
+      <li>lê as suas tarefas do Google Tarefas;</li>
+      <li>cria ou altera eventos e tarefas <strong>somente quando você pedir</strong> (por exemplo, "marca dentista quinta às 15h") e depois de confirmar.</li>
+    </ul>
+    <p>Os dados do Google ficam no aparelho da sua casa e não são enviados a ninguém além do próprio Google. Você pode desconectar a qualquer momento.</p>
+  </div>
+
+  <h2>Documentos</h2>
+  <ul>
+    <li><a href="privacy.html">Política de Privacidade</a></li>
+  </ul>
+
+  <footer>© Dungeon Dev Labs. O uso das informações recebidas das APIs do Google segue a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</footer>
+</main>
+</body>
+</html>

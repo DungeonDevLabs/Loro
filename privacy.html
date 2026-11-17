@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Loro</title>
+<style>
+  :root { --bg:#f6f7f9; --fg:#1b1f24; --soft:#566; --line:#dde1e6; --accent:#0b6b4f; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14181d; --fg:#e8ebef; --soft:#9aa5b1; --line:#2c333b; --accent:#5fd1a5; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui, sans-serif; }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1rem 3rem; }
+  h1 { font-size: 1.8rem; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  p, li { color: var(--soft); }
+  a { color: var(--accent); }
+  .meta { font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Loro</a></p>
+  <h1>Política de Privacidade</h1>
+  <p class="meta">Última atualização: 17 de novembro de 2026</p>
+
+  <h2>1. Quem somos</h2>
+  <p>O Loro é um assistente doméstico desenvolvido pela Dungeon Dev Labs. Ele é instalado e executado pelo próprio usuário em um aparelho na rede local da casa. A Dungeon Dev Labs não opera servidores do Loro e não recebe os seus dados.</p>
+
+  <h2>2. Dados do Google que o Loro acessa</h2>
+  <p>Somente se você conectar a sua conta Google, e apenas com a sua autorização, o Loro acessa:</p>
+  <ul>
+    <li><strong>Google Agenda</strong> (escopos <code>calendar.readonly</code> e <code>calendar.events</code>): a lista das suas agendas e os eventos do dia (título, horário e nome da agenda), e a criação, alteração ou exclusão de eventos que você pedir.</li>
+    <li><strong>Google Tarefas</strong> (escopo <code>tasks</code>): as suas tarefas pendentes e a criação ou conclusão de tarefas que você pedir.</li>
+  </ul>
+
+  <h2>3. Como usamos esses dados</h2>
+  <p>Os dados são usados apenas para mostrar o seu dia no aplicativo (card "Hoje", tela da casa) e para executar o que você pedir. Não usamos os dados para publicidade, não os vendemos, não os transferimos a terceiros e não os usamos para treinar modelos de inteligência artificial. Pessoas humanas não leem os seus dados.</p>
+
+  <h2>4. Onde ficam os dados</h2>
+  <ul>
+    <li>Eventos e tarefas são consultados ao Google quando necessário e exibidos no seu aparelho; não são copiados para nenhum servidor nosso.</li>
+    <li>O Loro guarda, no aparelho que o hospeda, apenas a credencial de acesso (token de atualização) de cada pessoa conectada, em um arquivo com acesso restrito. Essa credencial nunca é exibida nem enviada a terceiros.</li>
+    <li>A página de retorno do login (<code>CallbackToLocal</code>) é estática: ela apenas repassa o código de autorização do Google ao endereço da sua rede local e não armazena nada.</li>
+  </ul>
+
+  <h2>5. Compartilhamento</h2>
+  <p>Os dados do Google não são compartilhados com ninguém. Dentro da casa, cada pessoa escolhe o nível de detalhe que os outros moradores podem ver (tudo, apenas "ocupado" ou nada).</p>
+
+  <h2>6. Retenção e exclusão</h2>
+  <p>A credencial fica guardada enquanto a conta estiver conectada. Ao tocar em "Desconectar" no Loro, ela é apagada do aparelho. Você também pode revogar o acesso a qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Desinstalar o Loro apaga todos os dados locais.</p>
+
+  <h2>7. Uso Limitado</h2>
+  <p>O uso e a transferência, para qualquer outro app, de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+  <h2>8. Contato</h2>
+  <p>Dúvidas sobre privacidade: <a href="mailto:SEU_EMAIL_AQUI">SEU_EMAIL_AQUI</a></p>
+
+  <h2>9. Mudanças</h2>
+  <p>Se esta política mudar, a data de atualização acima será alterada.</p>
+</main>
+</body>
+</html>
